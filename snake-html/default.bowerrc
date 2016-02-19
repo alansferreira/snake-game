@@ -1,0 +1,7 @@
+{
+  "directory": "bower/lib",
+  "analytics": false,
+  "timeout": 120000,
+  "proxy": "http://proxy01.prodesp.sp.gov.br:80", 
+  "https-proxy":"http://proxy01.prodesp.sp.gov.br:80"
+}
