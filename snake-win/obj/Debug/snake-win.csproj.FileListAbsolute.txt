@@ -1,0 +1,9 @@
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\bin\Debug\snake-win.exe.config
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\bin\Debug\snake-win.exe
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\bin\Debug\snake-win.pdb
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\snake-win.csprojResolveAssemblyReference.cache
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\snake_win.Properties.Resources.resources
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\snake-win.csproj.GenerateResource.Cache
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\snake-win.exe
+C:\servers\git-hub\alansferreira\!workspaces\snake\snake-win\obj\Debug\snake-win.pdb
