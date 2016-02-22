@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 public class GameSwt extends JPanel {
 	
-	private Game game = new Game();
+	private Game game;
 	
 	public GameSwt(){
 		setFocusable(true);
@@ -20,6 +20,10 @@ public class GameSwt extends JPanel {
 		setVisible(true);
 		setLocation(0, 0);
 		setSize(500, 500);
+		game = new Game();
+		GameSwt _this = this;
+		
+		
 		addMouseListener(new MouseListener() {
 			
 			@Override
@@ -36,6 +40,7 @@ public class GameSwt extends JPanel {
 			
 			@Override
 			public void mouseClicked(MouseEvent e) {
+				game.renderSurface = _this.getGraphics();
 				game.start();
 			}
 		});
@@ -51,6 +56,7 @@ public class GameSwt extends JPanel {
 			public void keyTyped(KeyEvent e) {hintKey(e);}
 
 			void hintKey(KeyEvent e){
+				System.out.println(e.getKeyCode());
 				switch (e.getKeyCode()) {
 				case KeyEvent.VK_DOWN: 	game.snake.faceToDown();	break;
 				case KeyEvent.VK_UP:	game.snake.faceToUp(); 		break;
@@ -63,7 +69,7 @@ public class GameSwt extends JPanel {
 		
 	}
 	public static void main(String[] args) {
-		JFrame frame = new JFrame("Snake SWT");
+		JFrame frame = new JFrame("Snake SWT - Click on screen to start!");
 		frame.add(new GameSwt());
 		frame.setSize(500, 500);
 		frame.setVisible(true);

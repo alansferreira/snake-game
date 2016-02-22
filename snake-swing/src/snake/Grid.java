@@ -4,10 +4,10 @@ import java.awt.Color;
 
 public class Grid {
     public Color fruitPen;
-    public SimplePoint gridPosition;
+    public SimplePoint gridPosition = new SimplePoint(50, 50);
 
-    public int cellH = 10;
-    public int cells = 10;
-    public int cellW = 10;
-    public Color color;
+    public int cellH = 20;
+    public int cells = 15;
+    public int cellW = 20;
+    public Color color = Color.BLACK;
 }

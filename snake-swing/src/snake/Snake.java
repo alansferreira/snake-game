@@ -11,7 +11,7 @@ public class Snake {
 	
 	public void faceToDown()	{ this.stepV = 1;  this.stepH = 0; }
 	public void faceToUp()   	{ this.stepV = -1; this.stepH = 0; }
-	public void faceToLeft()	{ this.stepV = 0;  this.stepH = 1; }
-	public void faceToRight()	{ this.stepV = 0;  this.stepH = -1; }
+	public void faceToLeft()	{ this.stepV = 0;  this.stepH = -1; }
+	public void faceToRight()	{ this.stepV = 0;  this.stepH = 1; }
 	
 }
