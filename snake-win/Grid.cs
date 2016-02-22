@@ -1,11 +1,13 @@
 ﻿using System.Drawing;
 
 namespace WindowsFormsApplication2 {
-    internal class Grid {
+    public class Grid {
         public Pen fruitPen;
         public Point gridPosition;
+        public Game game;
 
-        public Grid() {
+        public Grid(Game game) {
+            this.game = game;
         }
 
         public int cellH { get; set; }
